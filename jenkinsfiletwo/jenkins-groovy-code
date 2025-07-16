@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Echo') {
+            steps {
+                echo 'bro this is from jenkins two file are you got it!'
+            }
+
+        }
+    }
+}
